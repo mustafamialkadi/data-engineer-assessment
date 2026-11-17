@@ -1,0 +1,7 @@
+\copy customers FROM 'data/customers.csv' WITH (FORMAT csv, HEADER true, ENCODING UTF8)
+\copy accounts FROM 'data/accounts.csv' WITH (FORMAT csv, HEADER true, ENCODING UTF8)
+\copy cards FROM 'data/cards.csv' WITH (FORMAT csv, HEADER true, ENCODING UTF8)
+\copy transaction FROM 'data/transactions.csv' WITH (FORMAT csv, HEADER true, ENCODING UTF8)
+\copy purchase FROM 'data/purchase.csv' WITH (FORMAT csv, HEADER true, ENCODING UTF8)
+\copy cashout FROM 'data/cashout.csv' WITH (FORMAT csv, HEADER true, ENCODING UTF8)
+\copy transfers FROM 'data/transfers.csv' WITH (FORMAT csv, HEADER true, ENCODING UTF8)
